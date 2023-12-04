@@ -10,9 +10,9 @@ def part_2(data):
         for j, c in enumerate(i):
             if c.isdigit():
                 d.append(c)
-            for k, val in enumerate(['one','two','three','four','five','six','seven','eight','nine','zero']):
+            for k, val in enumerate(['zero','one','two','three','four','five','six','seven','eight','nine']):
                 if i[j:].startswith(val):
-                    d.append(str(k+1))
+                    d.append(str(k))
         s += int(d[0] + d[-1])
     print(s)
 
