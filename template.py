@@ -9,12 +9,12 @@ def part_1(data):
     print(data)
 
 
-def parse(data):
-    return data
+def parse(d):
+    return d.split('\n')
 
 
 with open('sample.txt', 'r') as fh:
-    d = fh.read().splitlines()
+    d = fh.read().strip()
     data = parse(d)
 
     part_1(data)

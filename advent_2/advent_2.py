@@ -36,12 +36,11 @@ def part_1(data):
 
 
 def parse(data):
-    return data
+    return d.split('\n')
 
 
 with open('inputs.txt', 'r') as fh:
     d = fh.read().strip()
-    d = d.split('\n')
     data = parse(d)
 
     part_1(data)

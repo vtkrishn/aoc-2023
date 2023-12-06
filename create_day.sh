@@ -23,7 +23,7 @@ cp ../$template $code_file
 touch sample.txt
 
 # session information from the browser - cookies. (inspect -> network tab - Refresh the page - Cookies - session)
-session=""
+session="53616c7465645f5f73a3c67d7ee6c11134c04dec36210147bc91ba5b4feaa48080abcb7c7067c3a9267225315fa1d7c47169e28c13fbfb233149311cd2521c69"
 
 # create inputs.txt
 # this will download for the current day
